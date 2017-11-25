@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<title>FinTech Club</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/fintech.css">
+<link rel="stylesheet" href = "css/aos.css"/>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+body,h1,h2,h4,h6, p {font-family: "Lato", sans-serif; color: black;}
+h3, h5 {font-family: "Lato", sans-serif; color: black}
+body, html {
+    height: 100%;
+    color: white;
+    line-height: 1.8;
+}
+
+.top {
+  overflow: hidden;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+
+
+/* Create a Parallax Effect */
+.bgimg-1 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+    background-image: url('images/torg.jpg');
+    min-height: 100%;
+}
+
+
+
+.wide {letter-spacing: 10px;}
+.hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
+
+.
+
+</style>
+
+<body>
+
+<div class="top">
+  <div class="bar wide padding" id="myNavbar">
+    <a class="bar-item button hover-text-white hide-medium hide-large center" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="index.html" class="bar-item button"><b>FinTech</b> @ VT</a>
+    <div class="right hide-small">
+      <a href="workshops.html" class="bar-item button"><b>Workshops</b></a>
+      <a href="events.html" class="bar-item button"><b>Events</b></a>
+      <a href="directory.html" class="bar-item button"><b>Directory</b></a>
+      <a href="contact.html" class="bar-item button"><b>Contact</b></a>
+    </div>
+    
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="bar-block white hide hide-large hide-medium">
+    <a href="workshops.html" class="bar-item button" onclick="toggleFunction()">Workshops</a>
+    <a href="events.html" class="bar-item button" onclick="toggleFunction()">Events</a>
+    <a href="directory.html" class="bar-item button" onclick="toggleFunction()">Directory</a>
+    <a href="contact.html" class="bar-item button" onclick="toggleFunction()">Contact</a>
+  </div>
+</div>
+
+<!-- Team Section -->
+<div class="container" style="padding:100px 16px" id="team">
+  <h3 class="center" data-aos = "fade-down">OUR MEMBERS</h3>
+  <div class="row-padding" style="margin-top:64px">
+    <div class="col l3 m1 margin-bottom">
+      <div class="card" data-aos = "fade-right">
+        <img src="images/suk.png" alt="John" style="width:100%">
+        <div class="container">
+          <h3>Sukrith Akula</h3>
+          <p class="opacity">President & Founder</p>
+          <p>Sukrith is a junior in computer science. His interests include data visualization and full stack development.</p>
+          <p><a href="mailto:sukrith@vt.edu?Subject=Hello%20again" target="_top"><button class="button light-grey block"><i class="fa fa-envelope"></i> Contact</button></a></p>
+        </div>
+      </div>
+    </div>
+    <div class="col l3 m4 margin-bottom">
+      <div class="card" data-aos = "fade-right">
+        <img src="images/ronnie.png" alt="Jane" style="width:100%">
+        <div class="container">
+          <h3>Ronnie Fesco</h3>
+          <p class="opacity">Vice President</p>
+          <p>Ronnie is a junior in data analytics.  His interests include cryptocurrency and data analysis.</p>
+          <p><a href="mailto:ronnief1@vt.edu?Subject=Hello%20again" target="_top"><button class="button light-grey block"><i class="fa fa-envelope"></i> Contact</button></a></p>
+        </div>
+      </div>
+    </div>
+    <div class="col l3 m4 margin-bottom">
+      <div class="card" data-aos = "fade-right">
+        <img src="images/me4.jpg" alt="Mike" style="width:100%">
+        <div class="container">
+          <h3>Mally Sapre</h3>
+          <p class="opacity">Lead Developer</p>
+          <p>Mally is a junior in business IT. His interests include web development and user interface design.</p>
+          <p><a href="mailto:mally7@vt.edu?Subject=Hello%20again" target="_top"><button class="button light-grey block"><i class="fa fa-envelope"></i> Contact</button></a></p>
+        </div>
+      </div>
+    </div>
+    <div class="col l3 m4 margin-bottom">
+      <div class="card" data-aos = "fade-right">
+        <img src="images/genface.png" alt="Dan" style="width:100%">
+        <div class="container">
+          <h3>Chaitanya Raju</h3>
+          <p class="opacity">Head of Logistics</p>
+          <p>Chaitanya is a junior in finance. His interests include quantitative trading and cryptocurrency.</p>
+          <p><a href="mailto:craju658@vt.edu?Subject=Hello%20again" target="_top"><button class="button light-grey block"><i class="fa fa-envelope"></i> Contact</button></a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  //future members
+
+  <!-- <div class="row-padding" style="margin-top:64px">
+    <div class="col l3 m1 margin-bottom">
+      <div class="card">
+        <img src="images/me4.jpg" alt="John" style="width:100%">
+        <div class="container">
+          <h3>Sukrith Akulka</h3>
+          <p class="opacity">President & Founder</p>
+          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+          <p><button class="button light-grey block"><i class="fa fa-envelope"></i> Contact</button></p>
+        </div>
+      </div>
+    </div>
+    <div class="col l3 m4 margin-bottom">
+      <div class="card">
+        <img src="images/me4.jpg" alt="Jane" style="width:100%">
+        <div class="container">
+          <h3>Ronnie Fesco</h3>
+          <p class="opacity">Vice President</p>
+          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+          <p><button class="button light-grey block"><i class="fa fa-envelope"></i> Contact</button></p>
+        </div>
+      </div>
+    </div>
+    <div class="col l3 m4 margin-bottom">
+      <div class="card">
+        <img src="images/me4.jpg" alt="Mike" style="width:100%">
+        <div class="container">
+          <h3>Mally Sapre</h3>
+          <p class="opacity">Web Designer</p>
+          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+          <p><button class="button light-grey block"><i class="fa fa-envelope"></i> Contact</button></p>
+        </div>
+      </div>
+    </div>
+    <div class="col l3 m4 margin-bottom">
+      <div class="card">
+        <img src="images/me4.jpg" alt="Dan" style="width:100%">
+        <div class="container">
+          <h3>Bob Bob</h3>
+          <p class="opacity">Designer</p>
+          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+          <p><button class="button light-grey block"><i class="fa fa-envelope"></i> Contact</button></p>
+        </div>
+      </div>
+    </div>
+  </div> -->
+</div>
+
+
+
+<script type="text/javascript" src = "js/aos.js"></script>
+<script>
+
+AOS.init();
+function myMap()
+{
+  myCenter=new google.maps.LatLng(41.878114, -87.629798);
+  var mapOptions= {
+    center:myCenter,
+    zoom:12, scrollwheel: false, draggable: false,
+    mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+  var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
+
+  var marker = new google.maps.Marker({
+    position: myCenter,
+  });
+  marker.setMap(map);
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 350 || document.documentElement.scrollTop > 350) {
+        navbar.className = "bar wide padding"  + " animate-top" + " black";
+    } else {
+        navbar.className = navbar.className.replace(" animate-top black", "");
+    }
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("show") == -1) {
+        x.className += " show";
+    } else {
+        x.className = x.className.replace(" show", "");
+    }
+}
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+
+</body>
+</html>

@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+<title>FinTech @ VT</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/fintech.css">
+<link rel="stylesheet" href = "css/aos.css"/>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h4,h6, p {font-family: "Lato", sans-serif; color: black;}
+h3, h5 {font-family: "Lato", sans-serif; color: black;}
+body, html {
+    height: 100%;
+    color: white;
+    line-height: 1.8;
+}
+
+.top {
+  overflow: hidden;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+
+
+/* Create a Parallax Effect */
+.bgimg-1 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+    background-image: url('images/torg.jpg');
+    min-height: 100%;
+}
+
+.filler {
+
+  height: 125px;
+}
+
+.wide {letter-spacing: 10px;}
+.hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+.row {
+    margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+    padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content */
+.content {
+    background-color: white;
+    padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 900px) {
+    .column {
+        width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+.
+
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<!-- <div class="top">
+  <div class="bar wide padding">
+    <a href="#home" class="bar-item button"><b>FinTech</b> @ VT</a>
+   
+    <div class="right hide-small">
+      <a href="workshops.html" class="bar-item button"><b>Workshops</b></a>
+      <a href="projects.html" class="bar-item button"><b>Projects</b></a>
+      <a href="directory.html" class="bar-item button"><b>Directory</b></a>
+      <a href="contact.html" class="bar-item button"><b>Contact</b></a>
+    </div>
+
+    <div id="navDemo" class="bar-block white hide hide-large hide-medium">
+    <a href="#about" class="bar-item button" onclick="toggleFunction()">ABOUT ME</a>
+    <a href="#about" class="bar-item button" onclick="toggleFunction()">EDUCATION</a>
+    <a href="#portfolio" class="bar-item button" onclick="toggleFunction()">EXPERIENCE</a>
+    <a href="#contact" class="bar-item button" onclick="toggleFunction()">INTERESTS</a>
+    <a href="#contact" class="bar-item button" onclick="toggleFunction()">CONTACT</a>
+  </div>
+  </div>
+</div> -->
+
+<div class="top">
+  <div class="bar wide padding" id="myNavbar">
+    <a class="bar-item button hover-text-white hide-medium hide-large center" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="index.html" class="bar-item button"><b>FinTech</b> @ VT</a>
+    <div class="right hide-small">
+      <a href="workshops.html" class="bar-item button"><b>Workshops</b></a>
+      <a href="events.html" class="bar-item button"><b>Events</b></a>
+      <a href="directory.html" class="bar-item button"><b>Directory</b></a>
+      <a href="contact.html" class="bar-item button"><b>Contact</b></a>
+    </div>
+    
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="bar-block white hide hide-large hide-medium">
+    <a href="workshops.html" class="bar-item button" onclick="toggleFunction()">Workshops</a>
+    <a href="events.html" class="bar-item button" onclick="toggleFunction()">Events</a>
+    <a href="directory.html" class="bar-item button" onclick="toggleFunction()">Directory</a>
+    <a href="contact.html" class="bar-item button" onclick="toggleFunction()">Contact</a>
+  </div>
+</div>
+
+<div class = "filler"></div>
+
+
+<h3 class="center" data-aos = "fade-down">PROJECTS</h3>
+
+
+<div class="row">
+
+  //future project holder
+  <div class="column">
+    <div class="content">
+      <img src="" style="width:100%">
+      <h3></h3>
+      <p></p>
+    </div>
+  </div>
+  <div class="column" data-aos = "fade-right">
+    <div class="content">
+      <img src="images/r.png" style="width:100%">
+      <h3>Bitcoin Analysis in R</h3>
+      <p>Our members learned how to implement R for pulling, cleaning, and visualizing Bitcoin transaction data for several exchanges.</p>
+    </div>
+  </div>
+  <div class="column" data-aos = "fade-right">
+    <div class="content">
+      <img src="images/quant.jpeg" style="width:100%">
+      <h3>Quantopian Algorithms</h3>
+      <p>We showed our members how to code basic buy and sell methods and use Quantopian's past market data to test certain algorithms.</p>
+    </div>
+  </div>
+
+  //future project holder
+  <div class="column">
+    <div class="content">
+      <img src="" style="width:100%">
+      <h3></h3>
+      <p></p>
+    </div>
+  </div>
+<!-- END GRID -->
+</div>
+
+
+<h3 style="margin-left: 32%;">Check out our projects on our <a href="https://github.com/ronnief1/Financial-Technology-Club-at-Virginia-Tech"">GitHub Page</a> </h3>
+
+
+ 
+<!-- Add Google Maps -->
+<script type="text/javascript" src = "js/aos.js"></script>
+<script>
+
+AOS.init();
+function myMap()
+{
+  myCenter=new google.maps.LatLng(41.878114, -87.629798);
+  var mapOptions= {
+    center:myCenter,
+    zoom:12, scrollwheel: false, draggable: false,
+    mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+  var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
+
+  var marker = new google.maps.Marker({
+    position: myCenter,
+  });
+  marker.setMap(map);
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop < 0 || document.documentElement.scrollTop < 0) {
+        navbar.className = "bar wide padding"  + " animate-top" + " black";
+    } else {
+        navbar.className = navbar.className.replace(" animate-top green", "");
+    }
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("show") == -1) {
+        x.className += " show";
+    } else {
+        x.className = x.className.replace(" show", "");
+    }
+}
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+<!--
+To use this code on your website, get a free API key from Google.
+Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
+-->
+
+</body>
+</html>

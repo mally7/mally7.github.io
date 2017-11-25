@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<title>FinTech @ VT</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/fintech.css">
+<link rel="stylesheet" href = "css/aos.css"/>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h4,h6, p {font-family: "Lato", sans-serif; color: black;}
+h3, h5 {font-family: "Lato", sans-serif; color: black;}
+body, html {
+    height: 100%;
+    color: white;
+    line-height: 1.8;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+    background-image: url('images/torg.jpg');
+    min-height: 100%;
+}
+
+
+
+.wide {letter-spacing: 10px;}
+.hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
+
+.
+
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<!-- <div class="top">
+  <div class="bar wide padding">
+    <a href="#home" class="bar-item button"><b>FinTech</b> @ VT</a>
+   
+    <div class="right hide-small">
+      <a href="workshops.html" class="bar-item button"><b>Workshops</b></a>
+      <a href="projects.html" class="bar-item button"><b>Projects</b></a>
+      <a href="directory.html" class="bar-item button"><b>Directory</b></a>
+      <a href="contact.html" class="bar-item button"><b>Contact</b></a>
+    </div>
+
+    <div id="navDemo" class="bar-block white hide hide-large hide-medium">
+    <a href="#about" class="bar-item button" onclick="toggleFunction()">ABOUT ME</a>
+    <a href="#about" class="bar-item button" onclick="toggleFunction()">EDUCATION</a>
+    <a href="#portfolio" class="bar-item button" onclick="toggleFunction()">EXPERIENCE</a>
+    <a href="#contact" class="bar-item button" onclick="toggleFunction()">INTERESTS</a>
+    <a href="#contact" class="bar-item button" onclick="toggleFunction()">CONTACT</a>
+  </div>
+  </div>
+</div> -->
+
+<div class="top">
+  <div class="bar wide padding" id="myNavbar">
+    <a class="bar-item button hover-text-white hide-medium hide-large center" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="index.html" class="bar-item button"><b>FinTech</b> @ VT</a>
+    <div class="right hide-small">
+      <a href="workshops.html" class="bar-item button"><b>Workshops</b></a>
+      <a href="events.html" class="bar-item button"><b>Events</b></a>
+      <a href="directory.html" class="bar-item button"><b>Directory</b></a>
+      <a href="contact.html" class="bar-item button"><b>Contact</b></a>
+    </div>
+    
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="bar-block white hide hide-large hide-medium">
+    <a href="workshops.html" class="bar-item button" onclick="toggleFunction()">Workshops</a>
+    <a href="events.html" class="bar-item button" onclick="toggleFunction()">Events</a>
+    <a href="directory.html" class="bar-item button" onclick="toggleFunction()">Directory</a>
+    <a href="contact.html" class="bar-item button" onclick="toggleFunction()">Contact</a>
+  </div>
+</div>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 display-container " id="home">
+  <div class="display-middle" style="white-space:nowrap;">
+    <h1><span class="center padding-large black xlarge wide animate-opacity" style="font-size: 2vw;">FINANCIAL TECHNOLOGY CLUB </span></h1>
+    <h1><span class="center padding-large black xlarge wide animate-opacity" style="font-size: 2vw; margin-left: 121px;">AT VIRGINIA TECH </span></h1>
+  </div>
+
+
+</div>
+
+
+<!-- Container (About Section) -->
+<div class="content container padding-64" id="about">
+  <h3 class="center" data-aos = "fade-down">ABOUT US</h3>
+  <div class="row">
+
+    <!-- Hide this text on small devices -->
+    <div class="about" data-aos ="zoom-in" align="justify">
+      <p class = "ex5" style = "width: 55%;display: block;margin-left: auto;margin-right: auto;" data-aos = "zoom-in" align="justify">The Financial Technology Club at Virginia Tech holds member-run workshops aimed at developing specific skills, hosts company recruiters to discuss how they use financial technology at their respective firms, and works on group projects all with the aim of teaching our members valuable technical skills as well as connect them to corporations for possible internships. </p>
+    </div>
+  </div>
+</div>
+
+<div class="content container padding-64" id="about">
+  <h3 class="center" data-aos = "fade-down">OUR MISSION</h3>
+  <div class="row">
+
+    <!-- Hide this text on small devices -->
+    <div class="about" data-aos ="zoom-in" align="justify">
+      <p class = "ex5" style = "width: 55%;display: block;margin-left: auto;margin-right: auto;" data-aos = "zoom-in" align="justify">To create an atmostphere where students with a shared interest in investing, can come to learn more about financial technology, improve their financial skills, and share their financial tips with others.  They should also be able to learn about the versatility of fintech and how technology intertwines with so many areas of finance, and with this, we should allow members to learn about a unique and important field in technology. </p>
+
+      <p class = "ex5" style = "width: 55%;display: block;margin-left: auto;margin-right: auto;" data-aos = "zoom-in" align="justify">We will accomplish and abide by our mission statement by inviting guest speakers ranging from business professors to Industry Professionals.  Workshops are also another part of our vision as students work with fellow classmates across all majors to perfect their personal portfolios by sharing different financial technology based strategies. </p>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+ 
+<!-- Add Google Maps -->
+<script type="text/javascript" src = "js/aos.js"></script>
+<script>
+
+AOS.init();
+function myMap()
+{
+  myCenter=new google.maps.LatLng(41.878114, -87.629798);
+  var mapOptions= {
+    center:myCenter,
+    zoom:12, scrollwheel: false, draggable: false,
+    mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+  var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
+
+  var marker = new google.maps.Marker({
+    position: myCenter,
+  });
+  marker.setMap(map);
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 350 || document.documentElement.scrollTop > 350) {
+        navbar.className = "bar wide padding"  + " animate-top" + " black";
+    } else {
+        navbar.className = navbar.className.replace(" animate-top black", "");
+    }
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("show") == -1) {
+        x.className += " show";
+    } else {
+        x.className = x.className.replace(" show", "");
+    }
+}
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+<!--
+To use this code on your website, get a free API key from Google.
+Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
+-->
+
+</body>
+</html>
